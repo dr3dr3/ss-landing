@@ -1,0 +1,26 @@
+name: CI-TRUNK
+run-name: Trigger Continuous Improvement on PUSH to TRUNK (MAIN)
+
+on:
+  push:
+    branches: [main]
+
+env:
+  SOLUTION: landing
+
+jobs:
+
+  # Continuous integration workflow in 'ss-pipeline' repo
+  continuous-integration:
+    name: CI
+    if: ${{ vars.CI_PATTERN == 'TBD_MAIN' }}
+    uses: dr3dr3/ss-pipeline/.github/workflows/continuous-integration.yml@main
+    with: 
+      feature: ${{ github.event.head_commit.message }}
+      target-ref: ${{ github.sha }}
+    permissions:
+      contents: write
+      pull-requests: write
+      pages: write
+      id-token: write
+    secrets: inherit
