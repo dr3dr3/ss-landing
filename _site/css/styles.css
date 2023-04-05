@@ -56,8 +56,8 @@ main > .tagline {
 }
 
 main > .build {
-	font-size: 1.5rem;
-	margin: 1.5rem 0;
+	font-size: 1.0rem;
+	margin: 3.0rem 0;
 	font-weight: 100;
 }
 
