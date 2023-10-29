@@ -7,7 +7,7 @@ on:
 
 jobs:
 
-  # Continuous integration workflow in 'ss-pipeline' repo
+  # Continuous integration workflow in 'ss-landing' repo
   continuous-integration:
     name: CI
     if: ${{ vars.CI_PATTERN == 'TBD_MAIN' }}
