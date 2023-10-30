@@ -54,28 +54,4 @@ html {
 	}
 }
 
-.icons-social i {
-	font-size: 3em;
-}
 
-/* Theme */
-
-main {
-	background: #ffffff;
-	color: #0277BD;
-}
-
-.icons-social a {
-	color: #0277BD;
-}
-
-.icons-social a svg path{
-	fill: #0277BD;
-}
-
-/* Custom styles */
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}

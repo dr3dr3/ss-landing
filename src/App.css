@@ -2,6 +2,41 @@
   text-align: center;
 }
 
+/* Color Scheme */
+
+main {
+	background: #ffffff;
+	color: #0277BD;
+}
+
+.icons-social a {
+	color: #0277BD;
+}
+
+.icons-social a svg path{
+	fill: #0277BD;
+}
+
+.icons-social i {
+	font-size: 3em;
+}
+
+a:link {
+	color: #0277BD;
+}
+
+a:hover {
+	color: #0277BD;
+}
+
+a:visited {
+	color: #0277BD;
+}
+
+a:active {
+	color: #0277BD;
+}
+
 /* Custom Styles */
 
 main {
@@ -37,6 +72,18 @@ main > .latest {
 	margin-top: 0.5em;
 	margin-bottom: 1.0rem;
 	font-weight: 100;
+}
+
+.tagline a {
+	text-decoration-line: underline;
+	text-decoration-thickness: 6px;
+	text-decoration-color: #0277BD;
+}
+
+.tagline a:hover {
+	text-decoration-line: underline;
+	text-decoration-thickness: 6px;
+	text-decoration-color: red;
 }
 
 .icons-social i {
