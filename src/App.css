@@ -27,7 +27,15 @@ main > .tagline {
 
 main > .build {
 	font-size: 0.5rem;
-	margin: 2.0rem;
+	margin-top: 2.0rem;
+	margin-bottom: 0;
+	font-weight: 100;
+}
+
+main > .latest {
+	font-size: 0.5rem;
+	margin-top: 0.5em;
+	margin-bottom: 1.0rem;
 	font-weight: 100;
 }
 

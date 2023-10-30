@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { createInstance } from '@featurevisor/sdk';
+import { FeaturevisorProvider } from '@featurevisor/react';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+const f = createInstance({
+  datafileUrl: "http://localhost:3001/datafiles/ci/datafile-tag-all.json"
+});
+
 root.render(
   <React.StrictMode>
-    <App />
+    <FeaturevisorProvider instance={f}>
+      <App />
+    </FeaturevisorProvider>
   </React.StrictMode>
 );
 
