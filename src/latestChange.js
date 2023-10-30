@@ -5,7 +5,7 @@ export default function LatestChange() {
   const { isReady } = useStatus();
   const isEnabled = useFlag("showLatestChange");
 
-  if (isEnabled) {
+  if (isReady && isEnabled) {
     return <div className="latest">Latest Change: COMMIT-MESSAGE-PLACEHOLDER</div>;
   }
 
