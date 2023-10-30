@@ -2,7 +2,7 @@
   "name": "landing",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.replace.com",
+  "homepage": "https://dr3dr3.github.io/ss-landing/",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@featurevisor/react": "^0.58.0",
