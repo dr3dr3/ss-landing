@@ -6,11 +6,11 @@ export default function LatestChange() {
   const isEnabled = useFlag("showLatestChange");
 
   if (isEnabled) {
-    return <div class="latest">Latest Change: COMMIT-MESSAGE-PLACEHOLDER</div>;
+    return <div className="latest">Latest Change: COMMIT-MESSAGE-PLACEHOLDER</div>;
   }
 
   if (!isReady) {
-    return <div class="latest">Loading...</div>;
+    return <div className="latest">Loading...</div>;
   }
 
   return;
