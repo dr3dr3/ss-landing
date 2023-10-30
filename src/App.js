@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <main>
         <div className="intro">Hello, I'm André</div>
-        <div className="tagline">Sharing <a href="http://localhost:3000/revealmd/index.html">stories</a> about DevOps and Product Management</div>
+        <div className="tagline">Sharing <a href="http://localhost/revealmd/index.html">stories</a> about DevOps and Product Management</div>
         <div className="icons-social">
           <a href="https://github.com/dr3dr3">
                     <i className="fab fa-github" aria-hidden="true" title="Github"></i>
