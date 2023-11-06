@@ -9,7 +9,7 @@ import { FeaturevisorProvider } from '@featurevisor/react';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const f = createInstance({
-  datafileUrl: "https://dr3dr3.github.io/devops-demo-ff/datafiles/ci/datafile-tag-all.json"
+  datafileUrl: "https://flags.andredreyer.com/datafiles/ci/datafile-tag-all.json"
 });
 
 root.render(
