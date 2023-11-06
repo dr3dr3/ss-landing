@@ -10,7 +10,7 @@ export default function LatestChange() {
   }
 
   if (!isReady) {
-    return <div className="latest">Loading...</div>;
+    return <div className="latest">💤</div>;
   }
 
   return <div className="latest">🔖</div>;
