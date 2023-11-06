@@ -13,5 +13,5 @@ export default function LatestChange() {
     return <div className="latest">Loading...</div>;
   }
 
-  return;
+  return <div className="latest"> </div>;
 };
