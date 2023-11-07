@@ -1,5 +1,6 @@
 import './App.css';
 import LatestChange from './latestChange.js';
+import ShowDeployHost from './showDeployHost.js';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           </div>
       <div className="build">BUILD-PLACEHOLDER</div>
       <LatestChange />
+      <ShowDeployHost />
     </div>
   );
 }
