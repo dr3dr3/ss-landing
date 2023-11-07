@@ -112,6 +112,13 @@ a:active {
 	font-weight: 100;
 }
 
+.host {
+	font-size: 0.5rem;
+	margin-top: 0.5em;
+	margin-bottom: 1.0rem;
+	font-weight: 100;
+}
+
 .icons-social i {
 	padding: 10px;
 }
