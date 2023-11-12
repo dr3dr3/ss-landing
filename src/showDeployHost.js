@@ -2,7 +2,7 @@ import React from "react";
 import { useFlag, useStatus } from "@featurevisor/react";
 
 export default function ShowDeployHost() {
-  const context = { blueGreen: 'DEPLOY-BLUE-GREEN'};
+  const context = { blueGreen: 'DEPLOY-BLUE-GREEN' };
   const { isReady } = useStatus();
   const isEnabled = useFlag("showDeployHost", context);
 
