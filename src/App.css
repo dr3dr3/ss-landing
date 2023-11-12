@@ -75,7 +75,7 @@ a:visited {
 }
 
 a:active {
-	color: var(--r-link-color-dark);
+	color: var(--r-link-color-hover);
 	text-decoration: var(--r-link-text-decoration);
 	font-weight: bold;
 }
@@ -107,15 +107,15 @@ a:active {
 
 .latest {
 	font-size: 0.5rem;
-	margin-top: 0.5em;
-	margin-bottom: 1.0rem;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	font-weight: 100;
 }
 
 .host {
 	font-size: 0.5rem;
-	margin-top: 0.5em;
-	margin-bottom: 1.0rem;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	font-weight: 100;
 }
 
